@@ -1,0 +1,2166 @@
+Calculator
+•
+•
+print('Information about the Calculator :')
+print('')
+print('1.This Calculator does not follow the rules of BODMAS')
+print('2.Only four Operators can be used in this Calculator "+","-","*" and "/" ')
+print('3.Currently this Calculator can take only 2-15 operands')
+print('')
+operands = int(input('How many operands does your question have ? '))
+print('')
+#Operands = 2
+if (operands == 2):
+    num1 = int(input('Enter the First Number = '))
+    num2 = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+    else :
+        print('Wrong Operator')
+        
+        
+#Operands = 3
+elif (operands == 3):
+    num1 = int(input('Enter the First Number = '))
+    num2 = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+    else :
+        print('Wrong Operator')    
+        
+    print('')
+    print('----------------')
+    print('')    
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+    else :
+        print('Wrong Operator')
+        
+        
+#Operands = 4
+elif (operands == 4):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+    else :
+        print('Wrong Operator')    
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+    else :
+        print('Wrong Operator')    
+    
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+    else :
+        print('Wrong Operator')
+        
+        
+#Operands = 5
+elif (operands == 5):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+    else :
+        print('Wrong Operator')   
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+    else :
+        print('Wrong Operator')   
+        
+        
+#Operands = 6
+elif (operands == 6):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+•
+#Operands = 7
+elif (operands == 7):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+        print('')    
+        print('----------------')
+        print('')    
+        
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+#Operands = 8
+elif (operands == 8):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+#Operands = 9
+elif (operands == 9):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+        print('')    
+        print('----------------')
+        print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num9 = int(input('Enter the Ninth Number = ')) 
+    op8 = input('Enter the Eight Operator = ') 
+    if( op8 == '+'):
+        ot8 = ot7+num9
+        print('The sum of the numbers is =',ot8)
+    elif (op8 == '-'): 
+        ot8 = ot7-num9
+        print('The differnece of the numbers is =',ot8)
+    elif (op8 == '*'): 
+        ot8 = ot7*num9
+        print('The product of the numbers is =',ot8)
+    elif (op8 == '/'): 
+        ot8 = ot7/num9
+        print('The quotient of the numbers is =',ot8)
+    else :
+        print('Wrong Operator')
+•
+#Operands = 10
+elif (operands == 10):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num9 = int(input('Enter the Ninth Number = ')) 
+    op8 = input('Enter the Eight Operator = ') 
+    if( op8 == '+'):
+        ot8 = ot7+num9
+        print('The sum of the numbers is =',ot8)
+    elif (op8 == '-'): 
+        ot8 = ot7-num9
+        print('The differnece of the numbers is =',ot8)
+    elif (op8 == '*'): 
+        ot8 = ot7*num9
+        print('The product of the numbers is =',ot8)
+    elif (op8 == '/'): 
+        ot8 = ot7/num9
+        print('The quotient of the numbers is =',ot8)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num10 = int(input('Enter the Tenth Number = ')) 
+    op9 = input('Enter the Ninth Operator = ') 
+    if( op9 == '+'):
+        ot9 = ot8+num10
+        print('The sum of the numbers is =',ot9)
+    elif (op9 == '-'): 
+        ot9 = ot8-num10
+        print('The differnece of the numbers is =',ot9)
+    elif (op9 == '*'): 
+        ot9 = ot8*num10
+        print('The product of the numbers is =',ot9)
+    elif (op9 == '/'): 
+        ot9 = ot8/num10
+        print('The quotient of the numbers is =',ot9)
+    else :
+        print('Wrong Operator')
+        
+#Operands = 11
+elif (operands == 11):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num9 = int(input('Enter the Ninth Number = ')) 
+    op8 = input('Enter the Eight Operator = ') 
+    if( op8 == '+'):
+        ot8 = ot7+num9
+        print('The sum of the numbers is =',ot8)
+    elif (op8 == '-'): 
+        ot8 = ot7-num9
+        print('The differnece of the numbers is =',ot8)
+    elif (op8 == '*'): 
+        ot8 = ot7*num9
+        print('The product of the numbers is =',ot8)
+    elif (op8 == '/'): 
+        ot8 = ot7/num9
+        print('The quotient of the numbers is =',ot8)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num10 = int(input('Enter the Tenth Number = ')) 
+    op9 = input('Enter the Ninth Operator = ') 
+    if( op9 == '+'):
+        ot9 = ot8+num10
+        print('The sum of the numbers is =',ot9)
+    elif (op9 == '-'): 
+        ot9 = ot8-num10
+        print('The differnece of the numbers is =',ot9)
+    elif (op9 == '*'): 
+        ot9 = ot8*num10
+        print('The product of the numbers is =',ot9)
+    elif (op9 == '/'): 
+        ot9 = ot8/num10
+        print('The quotient of the numbers is =',ot9)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num11 = int(input('Enter the Eleventh Number = ')) 
+    op10 = input('Enter the  Tenth Operator = ') 
+    if( op10 == '+'):
+        ot10 = ot9+num11
+        print('The sum of the numbers is =',ot10)
+    elif (op10 == '-'): 
+        ot10 = ot9-num11
+        print('The differnece of the numbers is =',ot10)
+    elif (op10 == '*'): 
+        ot10 = ot9*num11
+        print('The product of the numbers is =',ot10)
+    elif (op10 == '/'): 
+        ot10 = ot9/num11
+        print('The quotient of the numbers is =',ot10)
+    else :
+        print('Wrong Operator')
+        
+#Operands = 12
+elif (operands == 12):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num9 = int(input('Enter the Ninth Number = ')) 
+    op8 = input('Enter the Eight Operator = ') 
+    if( op8 == '+'):
+        ot8 = ot7+num9
+        print('The sum of the numbers is =',ot8)
+    elif (op8 == '-'): 
+        ot8 = ot7-num9
+        print('The differnece of the numbers is =',ot8)
+    elif (op8 == '*'): 
+        ot8 = ot7*num9
+        print('The product of the numbers is =',ot8)
+    elif (op8 == '/'): 
+        ot8 = ot7/num9
+        print('The quotient of the numbers is =',ot8)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num10 = int(input('Enter the Tenth Number = ')) 
+    op9 = input('Enter the Ninth Operator = ') 
+    if( op9 == '+'):
+        ot9 = ot8+num10
+        print('The sum of the numbers is =',ot9)
+    elif (op9 == '-'): 
+        ot9 = ot8-num10
+        print('The differnece of the numbers is =',ot9)
+    elif (op9 == '*'): 
+        ot9 = ot8*num10
+        print('The product of the numbers is =',ot9)
+    elif (op9 == '/'): 
+        ot9 = ot8/num10
+        print('The quotient of the numbers is =',ot9)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num11 = int(input('Enter the Eleventh Number = ')) 
+    op10 = input('Enter the Tenth Operator = ') 
+    if( op10 == '+'):
+        ot10 = ot9+num11
+        print('The sum of the numbers is =',ot10)
+    elif (op10 == '-'): 
+        ot10 = ot9-num11
+        print('The differnece of the numbers is =',ot10)
+    elif (op10 == '*'): 
+        ot10 = ot9*num11
+        print('The product of the numbers is =',ot10)
+    elif (op10 == '/'): 
+        ot10 = ot9/num11
+        print('The quotient of the numbers is =',ot10)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num12 = int(input('Enter the Twelveth Number = ')) 
+    op11 = input('Enter the Eleventh Operator = ') 
+    if( op11 == '+'):
+        ot11 = ot10+num12
+        print('The sum of the numbers is =',ot11)
+    elif (op11 == '-'): 
+        ot11 = ot10-num12
+        print('The differnece of the numbers is =',ot11)
+    elif (op11 == '*'): 
+        ot11 = ot10*num12
+        print('The product of the numbers is =',ot11)
+    elif (op11 == '/'): 
+        ot11 = ot10/num12
+        print('The quotient of the numbers is =',ot11)
+    else :
+        print('Wrong Operator')
+        
+#Operands = 13
+elif (operands == 13):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num9 = int(input('Enter the Ninth Number = ')) 
+    op8 = input('Enter the Eight Operator = ') 
+    if( op8 == '+'):
+        ot8 = ot7+num9
+        print('The sum of the numbers is =',ot8)
+    elif (op8 == '-'): 
+        ot8 = ot7-num9
+        print('The differnece of the numbers is =',ot8)
+    elif (op8 == '*'): 
+        ot8 = ot7*num9
+        print('The product of the numbers is =',ot8)
+    elif (op8 == '/'): 
+        ot8 = ot7/num9
+        print('The quotient of the numbers is =',ot8)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num10 = int(input('Enter the Tenth Number = ')) 
+    op9 = input('Enter the Ninth Operator = ') 
+    if( op9 == '+'):
+        ot9 = ot8+num10
+        print('The sum of the numbers is =',ot9)
+    elif (op9 == '-'): 
+        ot9 = ot8-num10
+        print('The differnece of the numbers is =',ot9)
+    elif (op9 == '*'): 
+        ot9 = ot8*num10
+        print('The product of the numbers is =',ot9)
+    elif (op9 == '/'): 
+        ot9 = ot8/num10
+        print('The quotient of the numbers is =',ot9)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num11 = int(input('Enter the Elevelth Number = ')) 
+    op10 = input('Enter the Tenth Operator = ') 
+    if( op10 == '+'):
+        ot10 = ot9+num11
+        print('The sum of the numbers is =',ot10)
+    elif (op10 == '-'): 
+        ot10 = ot9-num11
+        print('The differnece of the numbers is =',ot10)
+    elif (op10 == '*'): 
+        ot10 = ot9*num11
+        print('The product of the numbers is =',ot10)
+    elif (op10 == '/'): 
+        ot10 = ot9/num11
+        print('The quotient of the numbers is =',ot10)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num12 = int(input('Enter the Twelveth Number = ')) 
+    op11 = input('Enter the Eleventh Operator = ') 
+    if( op11 == '+'):
+        ot11 = ot10+num12
+        print('The sum of the numbers is =',ot11)
+    elif (op11 == '-'): 
+        ot11 = ot10-num12
+        print('The differnece of the numbers is =',ot11)
+    elif (op11 == '*'): 
+        ot11 = ot10*num12
+        print('The product of the numbers is =',ot11)
+    elif (op11 == '/'): 
+        ot11 = ot10/num12
+        print('The quotient of the numbers is =',ot11)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num13 = int(input('Enter the Thirteenth Number = ')) 
+    op12 = input('Enter the Twelveth Operator = ') 
+    if( op12 == '+'):
+        ot12 = ot11+num13
+        print('The sum of the numbers is =',ot12)
+    elif (op12 == '-'): 
+        ot12 = ot11-num13
+        print('The differnece of the numbers is =',ot12)
+    elif (op12 == '*'): 
+        ot12 = ot11*num13
+        print('The product of the numbers is =',ot12)
+    elif (op12 == '/'): 
+        ot12 = ot11/num13
+        print('The quotient of the numbers is =',ot12)
+    else :
+        print('Wrong Operator')
+        
+#Operands = 14
+elif (operands == 14):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+        print('')    
+        print('----------------')
+        print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num9 = int(input('Enter the Ninth Number = ')) 
+    op8 = input('Enter the Eight Operator = ') 
+    if( op8 == '+'):
+        ot8 = ot7+num9
+        print('The sum of the numbers is =',ot8)
+    elif (op8 == '-'): 
+        ot8 = ot7-num9
+        print('The differnece of the numbers is =',ot8)
+    elif (op8 == '*'): 
+        ot8 = ot7*num9
+        print('The product of the numbers is =',ot8)
+    elif (op8 == '/'): 
+        ot8 = ot7/num9
+        print('The quotient of the numbers is =',ot8)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num10 = int(input('Enter the Tenth Number = ')) 
+    op9 = input('Enter the Ninth Operator = ') 
+    if( op9 == '+'):
+        ot9 = ot8+num10
+        print('The sum of the numbers is =',ot9)
+    elif (op9 == '-'): 
+        ot9 = ot8-num10
+        print('The differnece of the numbers is =',ot9)
+    elif (op9 == '*'): 
+        ot9 = ot8*num10
+        print('The product of the numbers is =',ot9)
+    elif (op9 == '/'): 
+        ot9 = ot8/num10
+        print('The quotient of the numbers is =',ot9)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num11 = int(input('Enter the Eleventh Number = ')) 
+    op10 = input('Enter the Tenth Operator = ') 
+    if( op10 == '+'):
+        ot10 = ot9+num11
+        print('The sum of the numbers is =',ot10)
+    elif (op10 == '-'): 
+        ot10 = ot9-num11
+        print('The differnece of the numbers is =',ot10)
+    elif (op10 == '*'): 
+        ot10 = ot9*num11
+        print('The product of the numbers is =',ot10)
+    elif (op10 == '/'): 
+        ot10 = ot9/num11
+        print('The quotient of the numbers is =',ot10)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num12 = int(input('Enter the Twelveth Number = ')) 
+    op11 = input('Enter the Eleventh Operator = ') 
+    if( op11 == '+'):
+        ot11 = ot10+num12
+        print('The sum of the numbers is =',ot11)
+    elif (op11 == '-'): 
+        ot11 = ot10-num12
+        print('The differnece of the numbers is =',ot11)
+    elif (op11 == '*'): 
+        ot11 = ot10*num12
+        print('The product of the numbers is =',ot11)
+    elif (op11 == '/'): 
+        ot11 = ot10/num12
+        print('The quotient of the numbers is =',ot11)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num13 = int(input('Enter the Thirteenth Number = ')) 
+    op12 = input('Enter the Twelveth Operator = ') 
+    if( op12 == '+'):
+        ot12 = ot11+num13
+        print('The sum of the numbers is =',ot12)
+    elif (op12 == '-'): 
+        ot12 = ot11-num13
+        print('The differnece of the numbers is =',ot12)
+    elif (op12 == '*'): 
+        ot12 = ot11*num13
+        print('The product of the numbers is =',ot12)
+    elif (op12 == '/'): 
+        ot12 = ot11/num13
+        print('The quotient of the numbers is =',ot12)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num14 = int(input('Enter the Fourteenth Number = ')) 
+    op13 = input('Enter the Thirteenth Operator = ') 
+    if( op13 == '+'):
+        ot13 = ot12+num14
+        print('The sum of the numbers is =',ot13)
+    elif (op13 == '-'): 
+        ot13 = ot12-num14
+        print('The differnece of the numbers is =',ot13)
+    elif (op13 == '*'): 
+        ot13 = ot12*num14
+        print('The product of the numbers is =',ot13)
+    elif (op13 == '/'): 
+        ot13 = ot12/num14
+        print('The quotient of the numbers is =',ot13)
+    else :
+        print('Wrong Operator')
+        
+#Operands = 15
+elif (operands == 15):
+    num1 = int(input('Enter the First Number = '))
+    num2  = int(input('Enter the Second Number = ')) 
+    op1 = input('Enter the First Operator = ')
+•
+•
+    if( op1 == '+'): 
+        ot1 = num1+num2
+        print('The sum of the numbers is =',ot1)
+    elif (op1 == '-'):
+        ot1 = num1-num2
+        print('The differnece of the numbers is =',ot1)
+    elif (op1 == '*'): 
+        ot1 = num1*num2
+        print('The product of the numbers is =',ot1)
+    elif (op1 == '/'): 
+        ot1 = num1/num2
+        print('The quotient of the numbers is =',ot1 )
+        
+    print('')
+    print('----------------')
+    print('')
+    
+    num3 = int(input('Enter the Third Number = ')) 
+    op2 = input('Enter the Second Operator = ') 
+    
+    if( op2 == '+'):
+        ot2 = ot1+num3
+        print('The sum of the numbers is =',ot2)
+    elif (op2 == '-'): 
+        ot2 = ot1-num3
+        print('The differnece of the numbers is =',ot2)
+    elif (op2 == '*'): 
+        ot2 = ot1*num3
+        print('The product of the numbers is =',ot2)
+    elif (op2 == '/'): 
+        ot2 = ot1/num3
+        print('The quotient of the numbers is =',ot2)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num4 = int(input('Enter the Fourth Number = ')) 
+    op3 = input('Enter the Third Operator = ') 
+    if( op3 == '+'):
+        ot3 = ot2+num4
+        print('The sum of the numbers is =',ot3)
+    elif (op3 == '-'): 
+        ot3 = ot2-num4
+        print('The differnece of the numbers is =',ot3)
+    elif (op3 == '*'): 
+        ot3 = ot2*num4
+        print('The product of the numbers is =',ot3)
+    elif (op3 == '/'): 
+        ot3 = ot2/num4
+        print('The quotient of the numbers is =',ot3)
+            
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num5 = int(input('Enter the Fifth Number = ')) 
+    op4 = input('Enter the Fourth Operator = ') 
+    if( op4 == '+'):
+        ot4 = ot3+num5
+        print('The sum of the numbers is =',ot4)
+    elif (op4 == '-'): 
+        ot4 = ot3-num5
+        print('The differnece of the numbers is =',ot4)
+    elif (op4 == '*'): 
+        ot4 = ot3*num5
+        print('The product of the numbers is =',ot4)
+    elif (op4 == '/'): 
+        ot4 = ot3/num5
+        print('The quotient of the numbers is =',ot4)
+        
+    print('')    
+    print('----------------')
+    print('')    
+    
+    num6 = int(input('Enter the Sixth Number = ')) 
+    op5 = input('Enter the Fifth Operator = ') 
+    if( op5 == '+'):
+        ot5 = ot4+num6
+        print('The sum of the numbers is =',ot5)
+    elif (op5 == '-'): 
+        ot5 = ot4-num6
+        print('The differnece of the numbers is =',ot5)
+    elif (op5 == '*'): 
+        ot5 = ot4*num6
+        print('The product of the numbers is =',ot5)
+    elif (op5 == '/'): 
+        ot5 = ot4/num6
+        print('The quotient of the numbers is =',ot5)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num7 = int(input('Enter the Seventh Number = ')) 
+    op6 = input('Enter the Sixth Operator = ') 
+    if( op6 == '+'):
+        ot6 = ot5+num7
+        print('The sum of the numbers is =',ot6)
+    elif (op6 == '-'): 
+        ot6 = ot5-num7
+        print('The differnece of the numbers is =',ot6)
+    elif (op6 == '*'): 
+        ot6 = ot5*num7
+        print('The product of the numbers is =',ot6)
+    elif (op6 == '/'): 
+        ot6 = ot5/num7
+        print('The quotient of the numbers is =',ot6)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num8 = int(input('Enter the Eight Number = ')) 
+    op7 = input('Enter the Seventh Operator = ') 
+    if( op7 == '+'):
+        ot7 = ot6+num8
+        print('The sum of the numbers is =',ot7)
+    elif (op7 == '-'): 
+        ot7 = ot6-num8
+        print('The differnece of the numbers is =',ot7)
+    elif (op7 == '*'): 
+        ot7 = ot6*num8
+        print('The product of the numbers is =',ot7)
+    elif (op7 == '/'): 
+        ot7 = ot6/num8
+        print('The quotient of the numbers is =',ot7)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num9 = int(input('Enter the Ninth Number = ')) 
+    op8 = input('Enter the Eight Operator = ') 
+    if( op8 == '+'):
+        ot8 = ot7+num9
+        print('The sum of the numbers is =',ot8)
+    elif (op8 == '-'): 
+        ot8 = ot7-num9
+        print('The differnece of the numbers is =',ot8)
+    elif (op8 == '*'): 
+        ot8 = ot7*num9
+        print('The product of the numbers is =',ot8)
+    elif (op8 == '/'): 
+        ot8 = ot7/num9
+        print('The quotient of the numbers is =',ot8)
+    else :
+        print('Wrong Operator')
+•
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num10 = int(input('Enter the Tenth Number = ')) 
+    op9 = input('Enter the Ninth Operator = ') 
+    if( op9 == '+'):
+        ot9 = ot8+num10
+        print('The sum of the numbers is =',ot9)
+    elif (op9 == '-'): 
+        ot9 = ot8-num10
+        print('The differnece of the numbers is =',ot9)
+    elif (op9 == '*'): 
+        ot9 = ot8*num10
+        print('The product of the numbers is =',ot9)
+    elif (op9 == '/'): 
+        ot9 = ot8/num10
+        print('The quotient of the numbers is =',ot9)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num11 = int(input('Enter the Eleventh Number = ')) 
+    op10 = input('Enter the Tenth Operator = ') 
+    if( op10 == '+'):
+        ot10 = ot9+num11
+        print('The sum of the numbers is =',ot10)
+    elif (op10 == '-'): 
+        ot10 = ot9-num11
+        print('The differnece of the numbers is =',ot10)
+    elif (op10 == '*'): 
+        ot10 = ot9*num11
+        print('The product of the numbers is =',ot10)
+    elif (op10 == '/'): 
+        ot10 = ot9/num11
+        print('The quotient of the numbers is =',ot10)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num12 = int(input('Enter the Twelveth Number = ')) 
+    op11 = input('Enter the Eleventh Operator = ') 
+    if( op11 == '+'):
+        ot11 = ot10+num12
+        print('The sum of the numbers is =',ot11)
+    elif (op11 == '-'): 
+        ot11 = ot10-num12
+        print('The differnece of the numbers is =',ot11)
+    elif (op11 == '*'): 
+        ot11 = ot10*num12
+        print('The product of the numbers is =',ot11)
+    elif (op11 == '/'): 
+        ot11 = ot10/num12
+        print('The quotient of the numbers is =',ot11)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num13 = int(input('Enter the Thirteenth Number = ')) 
+    op12 = input('Enter the Twelveth Operator = ') 
+    if( op12 == '+'):
+        ot12 = ot11+num13
+        print('The sum of the numbers is =',ot12)
+    elif (op12 == '-'): 
+        ot12 = ot11-num13
+        print('The differnece of the numbers is =',ot12)
+    elif (op12 == '*'): 
+        ot12 = ot11*num13
+        print('The product of the numbers is =',ot12)
+    elif (op12 == '/'): 
+        ot12 = ot11/num13
+        print('The quotient of the numbers is =',ot12)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num14 = int(input('Enter the Fourteenth Number = ')) 
+    op13 = input('Enter the Thirteenth Operator = ') 
+    if( op13 == '+'):
+        ot13 = ot12+num14
+        print('The sum of the numbers is =',ot13)
+    elif (op13 == '-'): 
+        ot13 = ot12-num14
+        print('The differnece of the numbers is =',ot13)
+    elif (op13 == '*'): 
+        ot13 = ot12*num14
+        print('The product of the numbers is =',ot13)
+    elif (op13 == '/'): 
+        ot13 = ot12/num14
+        print('The quotient of the numbers is =',ot13)
+    else :
+        print('Wrong Operator')
+        
+    print('')    
+    print('----------------')
+    print('')  
+    
+    num15 = int(input('Enter the Fifteenth Number = ')) 
+    op14 = input('Enter the Fourteenth Operator = ') 
+    if( op14 == '+'):
+        ot14 = ot13+num15
+        print('The sum of the numbers is =',ot14)
+    elif (op14 == '-'): 
+        ot14 = ot13-num15
+        print('The differnece of the numbers is =',ot14)
+    elif (op14 == '*'): 
+        ot14 = ot13*num15
+        print('The product of the numbers is =',ot14)
+    elif (op14 == '/'): 
+        ot14 = ot13/num15
+        print('The quotient of the numbers is =',ot14)
+    else :
+        print('Wrong Operator')
